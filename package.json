@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-haifengfe",
+  "version": "0.1.0",
+  "description": "Eslint for HaiFengFE",
+  "main": "index.js",
+  "scripts": {
+    "commit": "commitizen init cz-conventional-changelog --save --save-exact --force",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaiFengFE/eslint-haifengfe.git"
+  },
+  "keywords": [
+    "eslint",
+    "haifengfe"
+  ],
+  "author": "HaiFengFE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaiFengFE/eslint-haifengfe/issues"
+  },
+  "homepage": "https://github.com/HaiFengFE/eslint-haifengfe#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^7.1.2",
+    "commitizen": "^3.0.5",
+    "commitlint": "^7.2.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
