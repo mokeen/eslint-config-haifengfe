@@ -1,6 +1,6 @@
 {
   "name": "eslint-haifengfe",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Eslint for HaiFengFE",
   "main": "index.js",
   "scripts": {
