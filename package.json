@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-haifengfe",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Eslint for HaiFengFE",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/HaiFengFE/eslint-haifengfe.git"
   },
+  "files": [
+    "index.js",
+    "rules.js",
+    "README.md"
+  ],
   "keywords": [
     "eslint",
     "haifengfe"

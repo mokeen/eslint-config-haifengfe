@@ -26,6 +26,5 @@ module.exports = {
   'keyword-spacing': [1, { before: true, after: true }],
   'lines-around-comment': [1, {
     'beforeBlockComment': true,
-    'beforeLineComment': true,
   }],
 }
