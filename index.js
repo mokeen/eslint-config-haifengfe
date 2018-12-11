@@ -1,10 +1,10 @@
-const rules = require('rules')
+const rules = require('./rules')
 
 module.exports = {
   root: true,
   
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 7,
     sourceType: 'module',
     ecmaFeatures: {
       experimentalObjectRestSpread: true,

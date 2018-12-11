@@ -1,12 +1,12 @@
 
 module.exports = {
-  'semi': [0, never],
+  'semi': [0, 'never'],
   'no-console': [0],
   'no-global-assign': [0],
   'eqeqeq': [1],
   'no-eval': [1],
   'no-undef': [1],
-  'no-debug': [1],
+  'no-debugger': [1],
   'prefer-const': [1],
   'default-case': [1],
   'no-fallthrough': [1],
@@ -20,12 +20,12 @@ module.exports = {
   'eol-last': [1, 'always'],
   'linebreak-style': [1, 'unix'],
   'indent': [1, 2, { 'SwitchCase': 1 }],
-  'except-parens': [1, 'except-parens'],
+  'no-cond-assign': [1, 'except-parens'],
   'comma-dangle': [1, 'always-multiline'],
   'space-infix-ops': [1, { 'int32Hint': true }],
   'keyword-spacing': [1, { before: true, after: true }],
-  'lines-around-comment': {
+  'lines-around-comment': [1, {
     'beforeBlockComment': true,
     'beforeLineComment': true,
-  },
+  }],
 }
