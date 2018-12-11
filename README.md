@@ -1,6 +1,7 @@
-## eslint-config-haifengfe
+> ESLint config for haifengfe
 
-### Getting Started
+
+#### Getting Started
 
 1. Install: `npm i eslint-config-haifengfe -D`.
 
@@ -15,11 +16,8 @@
     extends:
       - 'haifengfe'
     ```
-<br/>
-<br/>
-<br/>
 
-### LICENSE
+#### LICENSE
 
 **MIT**
 
